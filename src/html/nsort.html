@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Sorting <h2>
+<p>this is sorting  to numbers</p>
+<button onclick="myFunction1()">try it </button>
+<button onclick="myFunction2()">try it </button>
+
+<p id= "demo"></p>
+<script>
+	var points=[40,50,60,17,3,12 ,7,1];
+	document.getElementById("demo").innerHTML=points;
+function	myFunction1(){
+	points.sort();
+	document.getElementById("demo").innerHTML= points;
+}
+	function	myFunction2(){
+		points.sort(function(a,b){return a-b});
+		document.getElementById("demo").innerHTML= points;
+}
+
+</script>
+</body>
+</html

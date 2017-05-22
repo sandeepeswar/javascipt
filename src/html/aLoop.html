@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>	
+<body>
+<h1>Array looping statement  in javaScrept</h1>
+<p id="demo"></p>
+
+
+<script>
+	var  fruits, txt, flt,i;
+
+	fruits=["banana", "orange","apple","kiwi"];
+	flt=  fruits.length;
+	txt ="<ul>";
+	for ( i = 0 ; i < flt ; i++) {
+		txt +="<li>" + fruits[i] +"</li>";
+	}
+	txt +="</ul>";
+	document.getElementById("demo").innerHTML= txt;
+	</script>
+
+	</body>
+</html>

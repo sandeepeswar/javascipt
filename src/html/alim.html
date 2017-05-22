@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p>Adding elements with high indexes can create undefined "holes" in an array.</p>
+
+<p id="demo"></p>
+
+<script>
+var fruits, fit, txt,i;
+ fruits =[ "banana","bery","apple","kiwi"];
+ fruits[6]="lemo";
+ fit= fruits.length;
+ txt="";
+ for (i = 0; i < fit ; i++){
+txt+=fruits[i] +"<br>";
+}
+document.getElementById("demo").innerHTML= txt ;
+</script>
+</body>
+</html>
+
+
+
+
+

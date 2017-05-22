@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1> this is marh.ramdam() method using </h1>
+<p> this is am randem number </p>
+<button onclick="myFunction()">try it</button>
+<p id="demo"></p>
+<script>
+	var point=[22,100,42,12,44];
+	document.getElementById("demo").innerHTML=point;
+function myFunction(){
+	 point.sort(function(a, b){return 0.5 - Math.random()});
+document.getElementById("demo").innerHTML=point;
+}
+</script>
+</body>
+</html>
+
